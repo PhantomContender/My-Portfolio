@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Adam Howard's Portfolio</title>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"> <span></span></a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a> </li>
+                <li class="nav-item"><a href="#gallery" class="nav-link active">Gallery</a> </li>
+                <li class="nav-item"><a href="#experience" class="nav-link active">Experience</a> </li>
+                <li class="nav-item"><a href="#testimonials" class="nav-link active">Testimonials</a> </li>
+                <li class="nav-item"><a href="#contact" class="nav-link active">Contact Me</a> </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="bg-dark text-white text-center p-5">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Learn more about me and my work</p>
+        <a href="#gallery" class="btn btn-primary">View My Work</a>
+    </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-end">
+                        <img src="bootstrap-pics/adam.jpg" class="border border-primary border-5 rounded" alt="Thick blue border" height="250" width="250">
+                </div>
+                <div class="col-md-9 bg-info">
+                    <h2 class=" display-4 mb-4">About Me</h2>
+                    <p>Hello, I'm Adam Howard, and welcome to my online portfolio.  I am currently enrolled in the Quickstart
+                        bootcamp for software engineering, where I have been working on small projects to better understand
+                        coding basics.  You can find some of those projects below.  New projects will be posted as soon as they are complete.
+                        Enjoy the site, and feel free to contact me below with any questions or comments you may have.
+                    </p>
+                </div>
+            </div>
+            
+
+   <div class="container py-5" id="gallery">
+        <h2 class=" display-4 mb-4">Gallery</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100  d-flex flex-column">
+                    <img src="bootstrap-pics/merge.jpg" class="card-img-top img-fluid"  alt="">
+                    <div class="card-body  d-flex flex-column">
+                        <h4 class="card-title mt-auto">Merge Test</h4>
+                        <p class="card-text">My first time merging separate branches into a Github repository.</p>
+                        <a href="https://github.com/PhantomContender/merge-test.git" class="btn btn-primary mt-auto" role="button">View Project</a>
+                        
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-md-4">
+                <div class="card h-100 d-flex flex-column">
+                    <img src="bootstrap-pics/firsthtml.jpg" class="card-img-top img-fluid"  alt="">
+                    <div class="card-body d-flex flex-column">              
+                        <h4 class="card-title mt-auto ">My First HTML Page</h4>
+                        <p class="card-text ">My first attempt at creating a html webpage.</p>
+                        <a href="https://github.com/PhantomContender/first-html-page.git" class="btn btn-primary mt-auto" role="button">View Project</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-4">
+                <div class="card h-100  d-flex flex-column">
+                    <img src="bootstrap-pics/bootstrap.jpg" class="card-img-top img-fluid"  alt="">
+                    <div class="card-body  d-flex flex-column">
+                        <h4 class="card-title mt-auto">Bootstrap Exercise</h4>
+                        <p class="card-text">My first hands-on experience using Bootstrap to generate more appealing webpages.</p>
+                        <a href="https://github.com/PhantomContender/bootstrap-exercise.git" class="btn btn-primary mt-auto" role="button">View Project</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5" id="experience">
+        <div class="row">
+            <div class="col-md-6 bg-dark text-white">
+                <h3 class="display-4 text-center mb-4">Education</h3>
+                <ul>
+                    <li>Sweetwater High School</li>
+                    <li>Hiwassee College</li>
+                    <li>East Tennessee State University</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3 class="display-4 text-center mb-4">Hobbies</h3>
+                <ul>
+                    <li>playing guitar</li>
+                    <li>painting miniatures</li>
+                    <li>reading comics</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <h3 class="display-4 text-center mb-4">Testimonials</h3>
+    <div id="testimonials" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="d-flex justify-content-center">
+                    <p class="lead">"Great Work! Highly Recommended." - John Wick</p>
+                </div>
+            </div>
+             <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <p class="lead">"He's a good boy" - Mom</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <p class="lead">"Yippee Ky Yay" - John Maclane</p>
+                    </div>
+                </div>
+
+         
+        </div>
+           <a class="carousel-control-prev" href="#testimonial" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+             <a class="carousel-control-next" href="#testimonial" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+    </div>
+
+    <div class="container py-5" id="contact">
+        <h2 class="mb-4 text-center display-4">Contact Me</h2>
+        <form action="" class="row g-3">
+            <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="col-md-6">
+                <input type="email" class="form-control" placeholder="Your Email">
+            </div>
+            <div class="col-12">
+                <textarea rows="4" class="form-control" placeholder="Your Message"></textarea>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-outline-primary w-100">Send Message</button>
+
+            </div>
+        </form>
+    </div>
+
+    <div class="bg-dark text-white text-center p4">
+        <p>&copy; 2026 My Portfolio. All rights reserved</p>
+    </div>
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
